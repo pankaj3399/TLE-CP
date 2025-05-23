@@ -22,14 +22,13 @@ int main()
     cin >> t;
     while (t--)
     {
-        ll a,b,c;
+        ll a, b, c;
         cin >> a >> b >> c;
-        bool first = (c%2 == b%2);
-        bool second = (a%2 == c%2);
-        bool third = (a%2 == b%2);
+        bool first = (c % 2 == b % 2);
+        bool second = (a % 2 == c % 2);
+        bool third = (a % 2 == b % 2);
 
         cout << first << " " << second << " " << third << "\n";
-        
     }
 
     return 0;
